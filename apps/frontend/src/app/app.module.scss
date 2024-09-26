@@ -1,0 +1,22 @@
+/* Your styles goes here. */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1f1f1f;
+  opacity: 0.6; /* Firefox */
+}
+
+body {
+  background-color: #1f1f1f !important;
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+}

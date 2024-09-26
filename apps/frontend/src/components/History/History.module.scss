@@ -1,0 +1,25 @@
+.historyWrapper {
+  display: flex;
+  padding-top: 64px;
+
+  .historyMain {
+    background: linear-gradient(
+      0deg,
+      rgba(31, 31, 31, 0.36) 80%,
+      rgba(25, 118, 210, 0.17) 100%
+    );
+    padding: 16px 32px;
+    width: 100%;
+    min-height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .historyTitle {
+      font-weight: 600;
+      width: 100%;
+      text-align: left;
+      user-select: none;
+    }
+  }
+}
